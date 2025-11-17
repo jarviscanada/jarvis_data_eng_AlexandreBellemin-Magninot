@@ -33,7 +33,7 @@ psql -h hostname -U db_username -d db_name -f sql/ddl.sql
 
 # Implementation
 ## Architecture
-![my image](./assets/architecture.jpg)
+![my image](./assets/Architecture.jpg)
 
 ## Scripts
 ### psql_docker.sh
