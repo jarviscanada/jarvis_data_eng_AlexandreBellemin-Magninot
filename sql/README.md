@@ -1,4 +1,7 @@
 # Introduction
+This project is a learning activity from the Jarvis Training Program to (re)discover and practice SQL by writing almost 30 query exercises. They cover major SQL concepts, including DDL, joins, aggregations, window functions, and date and string manipulations. 
+
+All the queries have been designed to be executed in a PostgreSQL database, created by DDL queries, and deployed in a Docker container.
 
 # SQL Queries
 
