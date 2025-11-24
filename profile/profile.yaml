@@ -5,8 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AlexandreB
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
-
+summary: As a recent graduate with a Master's degree in Information Technology from the École de Technologie Supérieure de Montréal (ÉTS, Canada), with a double degree from the Institut Nationale des Sciences Appliquées de Lyon (INSA Lyon, France), I am interested in data, project management, and exploring new skills, with a particular focus on the aerospace and aeronautics sector. My goal is to build, learn, collaborate, understand, and above all, contribute to meaningful projects.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -17,107 +16,103 @@ skills:
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - Power BI
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - Python
+    - Microsoft Azure
+    - PHP / Laravel
+    - C/C++
+    - VBA
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - PySpark
+    - MongoDB
+    - Tableau
+    - Databricks
+    - Javascript
+    - R
+    - Unity
+    - HTML/CSS
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Cluster Monitor"
+  - name: "Linux Cluster Monitor."
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description allows hiring managers to understand your project and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+    description: "Implemented a lightweight Linux monitoring agent that gathers hardware specifications and real-time usage metrics of systems in a distributed environment, so you can keep an eye on your servers without having to htop every five minutes across your entire system. It uses Bash scripts to collect host information and real-time usage metrics, Git to facilitate teamwork and feature development, and Docker to run a PostgreSQL instance for a relational database. The collected data is automatically added to them using cron jobs, tracking CPU, memory, and disk usage for capacity planning, troubleshooting, or simply spying in a distributed system. Long story short, the project shows how to build a simple, efficient DevOps pipeline with just a few scripts and some container magic."
+  - name: "RDBMS and SQL."
+    git_url: "/sql"
+    description: "Practiced SQL by writing almost 30 query exercises. They cover major SQL concepts, including DDL, joins, aggregations, window functions, and date and string manipulations. All the queries have been designed to be executed in a PostgreSQL database, created by DDL queries, and deployed in a Docker container."
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+  #project name
+  - name: "AGILE project (academic project at INSA Lyon)."
+    # URL is optional
+    # git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
+    description: "Implemented a map for the delivery service to optimize routes using Dijkstra's algorithm. Coding in Java, using an AGILE method and Git for collaboration."
+  - name: "Compiler in C (academic project at INSA Lyon)."
+    description: "Implemented a compiler for the C language in order to understand how it works, in C++ and assembly language. GitHub is used for collaboration."
+  - name: "Connected doorbell (academic project at ÉTS)."
+    description: "Design and development of a web application in Flask, deployed on Azure Web App to provide a graphical interface connected to a doorbell. The application can notify the user and take a photo to store in an Azure blob when someone rings the doorbell."
 #List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+#The job description allows hiring managers to understand your job and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g., team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Software Developer."
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2025-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Worked on several projects to develop skills for a data engineering role."
+  - title: "Project Coordinator."
+    company: "Bombardier"
+    duration: "09/2024 - 05/2025"
+    description: "Developed automated tools using the Microsoft suite (Excel, VBA, Power Automate, Planner, SharePoint) to improve data reliability and optimize internal processes, some of which reduced execution time from one week to just 5 minutes. Contributed to knowledge management across several thousand employees."
+  - title: "Data Consultant."
+    company: "Thélio"
+    duration: "05/2023 - 08/2023"
+    description: "Developed an ERP module in Laravel(PHP) for offer catalog management, extracted ERP data into a warehouse via APIs, and automated ELT pipelines with SQL & Azure Data Factory in medallion architecture. Built a Power BI dashboard to track the environmental footprint of the company."
+  - title: "Web developer."
+    company: "Ancey Informatique."
+    duration: "07/2022 - 08/2022"
+    description: "Designed and developed automated tests in PHPUnit for a Laravel-based resource management application used by multiple client companies."
 
-#List of edcuation
-education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+
+
+#List of education
+education:
+  - school_name: "École de Technologie Supérieure (ÉTS Montréal)"
+    duration: "2023-2025"
+    degree: "Master of Information Technology (IT)."
+    department: "Information Technology."
     # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+    awards_achievements:
+      - "Courses taken: Business Intelligence (BI), Cloud computing, Virtual Reality (VR), Knowledge and innovation management, Project portfolio management, Feasibility analysis, AGILE, Artificial intelligence management."
+      - "GPA: 3.7/4.0"
+  - school_name: "Institut National des Sciences Appliquées (INSA Lyon, FRANCE)"
+    duration: "2019-2025"
+    degree: "Master's in Engineering."
+    department: "Computer Science."
+    awards_achievements:
+      - "Courses taken: Software development and design, DBMS, OLAP data modeling, Networks, Machine Learning, AGILE, Data mining, Statistics, Probability."
+      - "Animation manager at Student Association of the Computer Science Department."
+      - "Consultant for the school's junior company ETIC INSA Technologies: understanding the customer's needs and implementing the solution."
+      - "GPA: 3.7/4.0"
 
 #Optional section
 others:
-    #category
+  #category
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "Cambridge Business Linguaskill (180/180)"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Drummer in several bands."
+      - "Mountain sports"
+      - "Amateur cook"
