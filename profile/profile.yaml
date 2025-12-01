@@ -2,28 +2,37 @@
 name: "Alexandre BELLEMIN-MAGNINOT"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot
+  
+  # Introduce yourself, your academic and professional background.
+  # What excites you about the software industry and your passion. At least 80 words
+summary: As a recent double-degree graduate with a Master's in Information Technology from ÉTS Montréal and a Master's in Computer Engineering from INSA Lyon, I bring a hybrid profile combining data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications.
+  At Thélio, as a Data Consultant, I implemented medallion architecture pipelines using Azure Data Factory and SQL stored procedures, extracted data via APIs, and delivered interactive Power BI dashboards for analysis. At Bombardier, as Project Coordinator, I strengthened skills in governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process execution times from one week to a few minutes.
+  I focus on solving data challenges, improving processes, and building impactful data solutions. I aim to advance as a data engineer by learning, collaborating, and delivering results with operational impact.
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: As a recent graduate with a Master's degree in Information Technology from the École de Technologie Supérieure de Montréal (ÉTS, Canada), with a double degree from the Institut Nationale des Sciences Appliquées de Lyon (INSA Lyon, France), I am interested in data, project management, and exploring new skills, with a particular focus on the aerospace and aeronautics sector. My goal is to build, learn, collaborate, understand, and above all, contribute to meaningful projects.
-# Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+  # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
+    - Python
+    - Power BI
+    - Azure Data Factory
+    - RDBMS/SQL
+    - Excel/VBA
     - Java
     - Linux/Bash
-    - RDBMS/SQL
+    - Docker
     - Agile/Scrum
     - Git
-    - Power BI
   # At least 5 skills
   competent:
-    - Python
+    - Pandas
     - Microsoft Azure
-    - PHP / Laravel
+    - Django/Flask
+    - R
     - C/C++
-    - VBA
+    - PHP / Laravel
+    - MS Power Automate
+    - MS Project
   # At least 5 skills
   familiar:
     - PySpark
@@ -31,9 +40,8 @@ skills:
     - Tableau
     - Databricks
     - Javascript
-    - R
     - Unity
-    - HTML/CSS
+    - Matlab
 
 # List of Jarvis projects
 jarvis_projects:
@@ -41,47 +49,59 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Implemented a lightweight Linux monitoring agent that gathers hardware specifications and real-time usage metrics of systems in a distributed environment, so you can keep an eye on your servers without having to htop every five minutes across your entire system. It uses Bash scripts to collect host information and real-time usage metrics, Git to facilitate teamwork and feature development, and Docker to run a PostgreSQL instance for a relational database. The collected data is automatically added to them using cron jobs, tracking CPU, memory, and disk usage for capacity planning, troubleshooting, or simply spying in a distributed system. Long story short, the project shows how to build a simple, efficient DevOps pipeline with just a few scripts and some container magic."
+    description: "Developed a lightweight Linux monitoring solution that collects hardware specifications and real-time system metrics across multiple distributed servers. Built using Bash for data collection, PostgreSQL containerized with Docker as RDBMS, and cron jobs for automated ingestion. The project demonstrates how to design a simple DevOps-style data pipeline for capacity planning and system observability."
   - name: "RDBMS and SQL."
     git_url: "/sql"
-    description: "Practiced SQL by writing almost 30 query exercises. They cover major SQL concepts, including DDL, joins, aggregations, window functions, and date and string manipulations. All the queries have been designed to be executed in a PostgreSQL database, created by DDL queries, and deployed in a Docker container."
+    description: "Designed a PostgreSQL database and implemented ~30 SQL queries covering DDL, joins, aggregations, window functions, and string/date operations. Deployed the database using Docker to simulate an industry-like environment and reinforce relational modeling and SQL optimization skills."
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
   #project name
-  - name: "AGILE project (academic project at INSA Lyon)."
+  - name: "AGILE Optimization Project (INSA Lyon)."
     # URL is optional
     # git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Implemented a map for the delivery service to optimize routes using Dijkstra's algorithm. Coding in Java, using an AGILE method and Git for collaboration."
-  - name: "Compiler in C (academic project at INSA Lyon)."
-    description: "Implemented a compiler for the C language in order to understand how it works, in C++ and assembly language. GitHub is used for collaboration."
-  - name: "Connected doorbell (academic project at ÉTS)."
-    description: "Design and development of a web application in Flask, deployed on Azure Web App to provide a graphical interface connected to a doorbell. The application can notify the user and take a photo to store in an Azure blob when someone rings the doorbell."
+    description: "Designed a route-optimization system for a simulated delivery service using Dijkstra's algorithm to compute the shortest and most efficient paths between warehouses and delivery points. Developed in Java within an Agile/Scrum framework (sprints, backlog, Git-based collaboration). Strengthened skills in algorithmic problem-solving, team coordination, and Agile project execution."
+  - name: "C Compiler (INSA Lyon)."
+    description: "Built a simplified C compiler using C++ and assembly to understand compilation stages (lexing, parsing, code generation). Applied low-level programming, language theory, and modular software design. Used GitHub for version control, issues, and team collaboration."
+  - name: "Connected Doorbell (ÉTS Montréal)."
+    description: "Developed a Flask web application deployed on Azure Web App to support a connected doorbell system. Implemented real-time notifications and automated image capture stored in Azure Blob Storage. Explored IoT-style communication, cloud deployment, and backend development."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g., team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer."
+  - title: "Software Developer (data engineering)."
     company: "Jarvis"
     duration: "2025-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Worked on several projects to develop skills for a data engineering role."
+    description: "Developed data engineering skills by working on end-to-end projects involving SQL, Pandas, Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints."
+
   - title: "Project Coordinator."
     company: "Bombardier"
     duration: "09/2024 - 05/2025"
-    description: "Developed automated tools using the Microsoft suite (Excel, VBA, Power Automate, Planner, SharePoint) to improve data reliability and optimize internal processes, some of which reduced execution time from one week to just 5 minutes. Contributed to knowledge management across several thousand employees."
+    description: "Designed and deployed internal automation tools using Excel, VBA, Power Automate, Planner, and SharePoint to improve data reliability and drastically reduce process execution time, from one week to under 5 minutes for one. 
+      Supported onboarding and training for hundreds of new engineers by developing planning tools, managing logistics, and ensuring learning resources are updated and available. 
+      Contributed to large-scale knowledge management efforts supporting several thousand employees by producing documentation, structuring information flows, and facilitating governance. 
+      Participated in the creation of internal podcasts, capturing and disseminating tacit knowledge. 
+      Worked primarily in an English-speaking environment, strengthening communication and cross-team coordination skills."
+
   - title: "Data Consultant."
     company: "Thélio"
     duration: "05/2023 - 08/2023"
-    description: "Developed an ERP module in Laravel(PHP) for offer catalog management, extracted ERP data into a warehouse via APIs, and automated ELT pipelines with SQL & Azure Data Factory in medallion architecture. Built a Power BI dashboard to track the environmental footprint of the company."
+    description: "Designed medallion architecture pipelines using SQL stored procedures and automated them with Azure Data Factory. 
+    Built an ERP module in Laravel (PHP) for catalog management and performed API-based data extraction to a data warehouse. 
+    Created Power BI dashboards to monitor environmental KPIs and support sustainability reporting. 
+    Performed data analysis using PySpark in Databricks for a project in collaboration with Olympique Lyonnais. 
+    Strengthened skills in ETL/ELT, cloud integration, data modeling, and business analytics."
+
   - title: "Web developer."
     company: "Ancey Informatique."
     duration: "07/2022 - 08/2022"
-    description: "Designed and developed automated tests in PHPUnit for a Laravel-based resource management application used by multiple client companies."
-
+    description: "Developed automated tests in PHPUnit for a Laravel-based resource management platform used by multiple clients. 
+      Worked on database modeling, query optimization, and maintenance of open-source tools. 
+      Gained experience in backend development and testing methodologies."
 
 
 #List of education
@@ -106,13 +126,10 @@ education:
 
 #Optional section
 others:
-  #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "Cambridge Business Linguaskill (180/180)"
+  # category
   - title: "Activities/Hobbies"
     bullets:
-      - "Drummer in several bands."
-      - "Mountain sports"
-      - "Amateur cook"
+      - "Drummer in several bands, playing styles ranging from pop to metal."
+      - "Mountain sports enthusiast: hiking, skiing, and climbing."
+      - "Amateur cook, with a particular interest in creating sauces."
+      - "Interest in the physics behind space phenomena and astrophysical concepts."

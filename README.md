@@ -1,42 +1,42 @@
 # Alexandre BELLEMIN-MAGNINOT . Jarvis Consulting
 
-As a recent graduate with a Master's degree in Information Technology from the École de Technologie Supérieure de Montréal (ÉTS, Canada), with a double degree from the Institut Nationale des Sciences Appliquées de Lyon (INSA Lyon, France), I am interested in data, project management, and exploring new skills, with a particular focus on the aerospace and aeronautics sector. My goal is to build, learn, collaborate, understand, and above all, contribute to meaningful projects.
+As a recent double-degree graduate with a Master's in Information Technology from ÉTS Montréal and a Master's in Computer Engineering from INSA Lyon, I bring a hybrid profile combining data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. At Thélio, as a Data Consultant, I implemented medallion architecture pipelines using Azure Data Factory and SQL stored procedures, extracted data via APIs, and delivered interactive Power BI dashboards for analysis. At Bombardier, as Project Coordinator, I strengthened skills in governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process execution times from one week to a few minutes. I focus on solving data challenges, improving processes, and building impactful data solutions. I aim to advance as a data engineer by learning, collaborating, and delivering results with operational impact.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Power BI
+**Proficient:** Python, Power BI, Azure Data Factory, RDBMS/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git
 
-**Competent:** Python, Microsoft Azure, PHP / Laravel, C/C++, VBA
+**Competent:** Pandas, Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Power Automate, MS Project
 
-**Familiar:** PySpark, MongoDB, Tableau, Databricks, Javascript, R, Unity, HTML/CSS
+**Familiar:** PySpark, MongoDB, Tableau, Databricks, Javascript, Unity, Matlab
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot)
 
 
-**Linux Cluster Monitor.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/linux_sql)]: Implemented a lightweight Linux monitoring agent that gathers hardware specifications and real-time usage metrics of systems in a distributed environment, so you can keep an eye on your servers without having to htop every five minutes across your entire system. It uses Bash scripts to collect host information and real-time usage metrics, Git to facilitate teamwork and feature development, and Docker to run a PostgreSQL instance for a relational database. The collected data is automatically added to them using cron jobs, tracking CPU, memory, and disk usage for capacity planning, troubleshooting, or simply spying in a distributed system. Long story short, the project shows how to build a simple, efficient DevOps pipeline with just a few scripts and some container magic.
+**Linux Cluster Monitor.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/linux_sql)]: Developed a lightweight Linux monitoring solution that collects hardware specifications and real-time system metrics across multiple distributed servers. Built using Bash for data collection, PostgreSQL containerized with Docker as RDBMS, and cron jobs for automated ingestion. The project demonstrates how to design a simple DevOps-style data pipeline for capacity planning and system observability.
 
-**RDBMS and SQL.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/sql)]: Practiced SQL by writing almost 30 query exercises. They cover major SQL concepts, including DDL, joins, aggregations, window functions, and date and string manipulations. All the queries have been designed to be executed in a PostgreSQL database, created by DDL queries, and deployed in a Docker container.
+**RDBMS and SQL.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/sql)]: Designed a PostgreSQL database and implemented ~30 SQL queries covering DDL, joins, aggregations, window functions, and string/date operations. Deployed the database using Docker to simulate an industry-like environment and reinforce relational modeling and SQL optimization skills.
 
 
 ## Highlighted Projects
-**AGILE project (academic project at INSA Lyon).**: Implemented a map for the delivery service to optimize routes using Dijkstra's algorithm. Coding in Java, using an AGILE method and Git for collaboration.
+**AGILE Optimization Project (INSA Lyon).**: Designed a route-optimization system for a simulated delivery service using Dijkstra's algorithm to compute the shortest and most efficient paths between warehouses and delivery points. Developed in Java within an Agile/Scrum framework (sprints, backlog, Git-based collaboration). Strengthened skills in algorithmic problem-solving, team coordination, and Agile project execution.
 
-**Compiler in C (academic project at INSA Lyon).**: Implemented a compiler for the C language in order to understand how it works, in C++ and assembly language. GitHub is used for collaboration.
+**C Compiler (INSA Lyon).**: Built a simplified C compiler using C++ and assembly to understand compilation stages (lexing, parsing, code generation). Applied low-level programming, language theory, and modular software design. Used GitHub for version control, issues, and team collaboration.
 
-**Connected doorbell (academic project at ÉTS).**: Design and development of a web application in Flask, deployed on Azure Web App to provide a graphical interface connected to a doorbell. The application can notify the user and take a photo to store in an Azure blob when someone rings the doorbell.
+**Connected Doorbell (ÉTS Montréal).**: Developed a Flask web application deployed on Azure Web App to support a connected doorbell system. Implemented real-time notifications and automated image capture stored in Azure Blob Storage. Explored IoT-style communication, cloud deployment, and backend development.
 
 
 ## Professional Experiences
 
-**Software Developer., Jarvis (2025-present)**: Worked on several projects to develop skills for a data engineering role.
+**Software Developer (data engineering)., Jarvis (2025-present)**: Developed data engineering skills by working on end-to-end projects involving SQL, Pandas, Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.
 
-**Project Coordinator., Bombardier (09/2024 - 05/2025)**: Developed automated tools using the Microsoft suite (Excel, VBA, Power Automate, Planner, SharePoint) to improve data reliability and optimize internal processes, some of which reduced execution time from one week to just 5 minutes. Contributed to knowledge management across several thousand employees.
+**Project Coordinator., Bombardier (09/2024 - 05/2025)**: Designed and deployed internal automation tools using Excel, VBA, Power Automate, Planner, and SharePoint to improve data reliability and drastically reduce process execution time, from one week to under 5 minutes for one. Supported onboarding and training for hundreds of new engineers by developing planning tools, managing logistics, and ensuring learning resources are updated and available. Contributed to large-scale knowledge management efforts supporting several thousand employees by producing documentation, structuring information flows, and facilitating governance. Participated in the creation of internal podcasts, capturing and disseminating tacit knowledge. Worked primarily in an English-speaking environment, strengthening communication and cross-team coordination skills.
 
-**Data Consultant., Thélio (05/2023 - 08/2023)**: Developed an ERP module in Laravel(PHP) for offer catalog management, extracted ERP data into a warehouse via APIs, and automated ELT pipelines with SQL & Azure Data Factory in medallion architecture. Built a Power BI dashboard to track the environmental footprint of the company.
+**Data Consultant., Thélio (05/2023 - 08/2023)**: Designed medallion architecture pipelines using SQL stored procedures and automated them with Azure Data Factory. Built an ERP module in Laravel (PHP) for catalog management and performed API-based data extraction to a data warehouse. Created Power BI dashboards to monitor environmental KPIs and support sustainability reporting. Performed data analysis using PySpark in Databricks for a project in collaboration with Olympique Lyonnais. Strengthened skills in ETL/ELT, cloud integration, data modeling, and business analytics.
 
-**Web developer., Ancey Informatique. (07/2022 - 08/2022)**: Designed and developed automated tests in PHPUnit for a Laravel-based resource management application used by multiple client companies.
+**Web developer., Ancey Informatique. (07/2022 - 08/2022)**: Developed automated tests in PHPUnit for a Laravel-based resource management platform used by multiple clients. Worked on database modeling, query optimization, and maintenance of open-source tools. Gained experience in backend development and testing methodologies.
 
 
 ## Education
@@ -52,7 +52,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlexandreB
 
 
 ## Miscellaneous
-- Cambridge Business Linguaskill (180/180)
-- Drummer in several bands.
-- Mountain sports
-- Amateur cook
+- Drummer in several bands, playing styles ranging from pop to metal.
+- Mountain sports enthusiast: hiking, skiing, and climbing.
+- Amateur cook, with a particular interest in creating sauces.
+- Interest in the physics behind space phenomena and astrophysical concepts.
