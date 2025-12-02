@@ -1,14 +1,14 @@
 # Alexandre BELLEMIN-MAGNINOT . Jarvis Consulting
 
-As a recent double-degree graduate with a Master's in Information Technology from ÉTS Montréal and a Master's in Computer Engineering from INSA Lyon, I bring a hybrid profile combining data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. At Thélio, as a Data Consultant, I implemented medallion architecture pipelines using Azure Data Factory and SQL stored procedures, extracted data via APIs, and delivered interactive Power BI dashboards for analysis. At Bombardier, as Project Coordinator, I strengthened skills in governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process execution times from one week to a few minutes. I focus on solving data challenges, improving processes, and building impactful data solutions. I aim to advance as a data engineer by learning, collaborating, and delivering results with operational impact.
+As a recent double-degree graduate with a Master's degree in Information Technology from ÉTS Montréal and a Master's degree in Computer Engineering from INSA Lyon, I bring a hybrid profile that combines data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. As a Data Consultant at Thélio, I designed medallion architecture pipelines with Azure Data Factory and SQL stored procedures, extracted data via APIs, and created interactive dashboards in Power BI. At Bombardier, as a Project Coordinator, I enhanced governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process times from one week to a few minutes. I aim to solve data challenges, improve processes, and develop impactful data solutions to enhance my skills as a data engineer.
 
 ## Skills
 
-**Proficient:** Python, Power BI, Azure Data Factory, RDBMS/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git
+**Proficient:** Python (Pandas/NumPy), Power BI, Azure Data Factory, RDBMS/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git, MS Power Automate
 
-**Competent:** Pandas, Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Power Automate, MS Project
+**Competent:** Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
 
-**Familiar:** PySpark, MongoDB, Tableau, Databricks, Javascript, Unity, Matlab
+**Familiar:** MongoDB, Tableau, Javascript, Unity, Matlab
 
 ## Jarvis Projects
 
