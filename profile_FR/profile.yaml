@@ -85,7 +85,7 @@ professional_experience:
   - title: "Consultant Data"
     company: "Thélio"
     duration: "05/2023 - 08/2023"
-    description: "Conçu des pipelines ETML en architecture médaillon à l'aide de procédures stockées SQL et automatisées via Azure Data Factory. Développé un module ERP en Laravel (PHP) pour la gestion du catalogue et extrait des données via API vers un entrepôt de données. Créé des tableaux de bord Power BI pour le suivi des indicateurs environnementaux et soutenir le reporting RSE. Réalisé du traitement de données avec PySpark sur Databricks pour un projet en collaboration avec l'Olympique Lyonnais. Renforcement des compétences en ETL/ELT, intégration cloud, modélisation de données et analytics."
+    description: "Conçu des pipelines ETL en architecture médaillon à l'aide de procédures stockées SQL et automatisées via Azure Data Factory. Développé un module ERP en Laravel (PHP) pour la gestion du catalogue et extrait des données via API vers un entrepôt de données. Créé des tableaux de bord Power BI pour le suivi des indicateurs environnementaux et soutenir le reporting RSE. Réalisé du traitement de données avec PySpark sur Databricks pour un projet en collaboration avec l'Olympique Lyonnais. Renforcement des compétences en ETL/ELT, intégration cloud, modélisation de données et analytics."
   - title: "Développeur web"
     company: "Ancey Informatique"
     duration: "07/2022 - 08/2022"
