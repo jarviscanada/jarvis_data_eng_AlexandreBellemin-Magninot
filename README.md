@@ -6,7 +6,7 @@ As a recent double-degree graduate with a Master's degree in Information Technol
 
 **Proficient:** Python (Pandas/NumPy), Power BI, Azure Data Factory, RDBMS/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git, MS Power Automate
 
-**Competent:** Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
+**Competent:** PySpark, Databricks, Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
 
 **Familiar:** MongoDB, Tableau, Javascript, Unity, Matlab
 
