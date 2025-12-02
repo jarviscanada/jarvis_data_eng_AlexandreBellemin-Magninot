@@ -90,26 +90,24 @@
   ],
   "skills": {
     "competent": [
-      "Pandas",
+      "PySpark",
+      "Databricks",
       "Microsoft Azure",
       "Django/Flask",
       "R",
       "C/C++",
       "PHP / Laravel",
-      "MS Power Automate",
       "MS Project"
     ],
     "familiar": [
-      "PySpark",
       "MongoDB",
       "Tableau",
-      "Databricks",
       "Javascript",
       "Unity",
       "Matlab"
     ],
     "proficient": [
-      "Python",
+      "Python (Pandas/NumPy)",
       "Power BI",
       "Azure Data Factory",
       "SGBD/SQL",
@@ -118,8 +116,9 @@
       "Linux/Bash",
       "Docker",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "MS Power Automate"
     ]
   },
-  "summary": "Récemment diplômé en double cursus avec une Maîtrise en Technologies de l'Information de l'École de Technologie Supérieure Montréal (ÉTS) et un diplôme d'ingénieur spécialisé en informatique de l'Institut National des Sciences Appliquées de Lyon (INSA Lyon), je possède un profil hybride combinant ingénierie des données, développement logiciel et coordination de projets. J'ai utilisé des technologies telles que SQL, Python, SGBD, Azure, Power BI, Java, VBA, Docker et Git pour concevoir des pipelines ETL automatisées, développer des tableaux de bord analytiques, optimiser des processus internes et déployer des applications cloud. Chez Thélio, en tant que Data Consultant, j'ai implémenté des pipelines en architecture médaillon avec Azure Data Factory et des procédures stockées SQL, extrait des données via des API et livré des tableaux de bord Power BI interactifs pour l'analyse. Chez Bombardier, en tant que Coordinateur de projet, j'ai renforcé mes compétences de communication avec la gouvernance, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes. J'ai un intérêt pour la résolution de problèmes liés aux données, l'amélioration des processus et la création de solutions data impactantes. Mon objectif est de progresser en tant qu'ingénieur de données en apprenant, collaborant et en livrant des résultats ayant un impact opérationnel concret."
+  "summary": "Récemment diplômé en double cursus avec une Maîtrise en Technologies de l'Information de l'ÉTS Montréal et un diplôme d'ingénieur spécialisé en informatique de l'INSA Lyon (FRANCE), je possède un profil hybride combinant ingénierie des données, développement logiciel et coordination de projets. J'ai utilisé des technologies telles que SQL, Python, SGBD, Azure, Power BI, Java, VBA, Docker et Git pour concevoir des pipelines ETL automatisées, développer des tableaux de bord analytiques, optimiser des processus internes et déployer des applications cloud. Chez Thélio, en tant que Data Consultant, j'ai implémenté des pipelines en architecture médaillon avec Azure Data Factory et des procédures stockées SQL, extrait des données via des API et livré des tableaux de bord Power BI interactifs pour l'analyse. Chez Bombardier, en tant que Coordinateur de projet, j'ai renforcé mes compétences de communication avec la gouvernance, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes. Mon objectif est de résoudre des problèmes liés aux données, améliorer des processus et créer des solutions data impactantes pour monter en compétence en tant qu'Ingénieur de données."
 }
