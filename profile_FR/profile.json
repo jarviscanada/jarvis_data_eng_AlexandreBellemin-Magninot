@@ -1,0 +1,124 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Cours suivis : Intelligence d'affaires (BI), Infonuagique, Réalité virtuelle (VR), Gestion des connaissances et de l'innovation, Gestion de portefeuille de projets, Analyse de faisabilité, Agile, Gestion de l'IA.",
+        "GPA : 3,7/4,0"
+      ],
+      "degree": "Maîtrise en Génie",
+      "department": "Technologies de l'Information",
+      "duration": "2023-2025",
+      "school_name": "École de Technologie Supérieure (ÉTS Montréal)"
+    },
+    {
+      "awards_achievements": [
+        "Cours suivis : Développement et conception logicielle, SGBD, Modélisation OLAP, Réseaux, Machine Learning, Agile, Data mining, Statistiques, Probabilités.",
+        "Responsable animation au sein de l'Association Étudiante du Département Informatique.",
+        "Consultant pour l'entreprise junior ETIC INSA Technologies : analyse des besoins client et mise en oeuvre de solutions.",
+        "GPA : 3,7/4,0"
+      ],
+      "degree": "Maîtrise en Ingénierie",
+      "department": "Informatique",
+      "duration": "2019-2025",
+      "school_name": "Institut National des Sciences Appliquées (INSA Lyon, FRANCE)"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot",
+  "highlighted_projects": [
+    {
+      "description": "Développé un système d'optimisation de chemins pour un service de livraison simulé en utilisant l'algorithme de Dijkstra afin de calculer les chemins les plus courts et efficaces entre les entrepôts et les points de livraison. Réalisé en Java dans un cadre Agile/Scrum (sprints, backlog, collaboration via Git). Renforcement des compétences en résolution algorithmique, coordination d'équipe et exécution de projet Agile.",
+      "name": "Projet d'optimisation AGILE (INSA Lyon)"
+    },
+    {
+      "description": "Construit un compilateur simplifié pour le langage C en C++ et assembleur, afin de comprendre les étapes de compilation (lexing, parsing, génération de code). Application de la programmation bas-niveau, théorie des langages et conception modulaire. Utilisation de GitHub pour le contrôle de version et la collaboration.",
+      "name": "Compilateur C (INSA Lyon)."
+    },
+    {
+      "description": "Développé une application web Flask déployée sur Azure Web App pour une sonnette connectée. Implémentation de notifications en temps réel sur un smartphone et capture automatique d'images stockées dans Azure Blob Storage. Exploration de la communication IoT, du déploiement cloud et du développement backend.",
+      "name": "Sonnette connectée (ÉTS Montréal)."
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitor."
+    },
+    {
+      "description": "Conçu une base de données PostgreSQL et réalisé environ 30 requêtes SQL couvrant DDL, jointures, agrégations, window functions et manipulations de string/dates. Déployé avec Docker pour simuler un environnement industriel et renforcer les compétences en modélisation relationnelle et optimisation SQL.",
+      "git_url": "/sql",
+      "name": "SGBD et SQL."
+    }
+  ],
+  "name": "Alexandre BELLEMIN-MAGNINOT",
+  "others": [
+    {
+      "bullets": [
+        "Batteur dans plusieurs groupes, styles allant de la pop au métal.",
+        "Passionné de sports de montagne : randonnée, ski et escalade.",
+        "Cuisinier amateur, particulièrement intéressé par la création de sauces.",
+        "Intérêt pour la physique des phénomènes spatiaux et concepts astrophysiques."
+      ],
+      "title": "Activités / Loisirs"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, Pandas, Bash, Docker et Git, en collaboration dans un cadre Agile. Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints.",
+      "duration": "2025-présent",
+      "title": "Développeur logiciel (ingénierie des données)"
+    },
+    {
+      "company": "Bombardier",
+      "description": "Conçu et déployé des outils d'automatisation interne avec Excel, VBA, Power Automate, Planner et SharePoint pour améliorer la fiabilité des données et réduire drastiquement le temps d'exécution de certains processus, passant d'une semaine à moins de 5 minutes pour certain. Soutenu l'intégration et la formation de plusieurs centaines de nouveaux ingénieurs via des outils de planification, la gestion logistique et la mise à disposition de ressources pédagogiques. Contribué à la gestion des connaissances à grande échelle pour quelques milliers d'ingénieurs, structurant les flux d'information et facilitant la gouvernance. Participé à la création de podcasts internes pour capturer et diffuser le savoir tacite. Communication principalement en anglais au sein d'équipes transverses.",
+      "duration": "09/2024 - 05/2025",
+      "title": "Coordinateur de projet"
+    },
+    {
+      "company": "Thélio",
+      "description": "Conçu des pipelines ETL en architecture médaillon à l'aide de procédures stockées SQL et automatisées via Azure Data Factory. Développé un module ERP en Laravel (PHP) pour la gestion du catalogue et extrait des données via API vers un entrepôt de données. Créé des tableaux de bord Power BI pour le suivi des indicateurs environnementaux et soutenir le reporting RSE. Réalisé du traitement de données avec PySpark sur Databricks pour un projet en collaboration avec l'Olympique Lyonnais. Renforcement des compétences en ETL/ELT, intégration cloud, modélisation de données et analytics.",
+      "duration": "05/2023 - 08/2023",
+      "title": "Consultant Data"
+    },
+    {
+      "company": "Ancey Informatique",
+      "description": "Développé des tests automatisés en PHPUnit pour une plateforme Laravel de gestion de ressources utilisée par plusieurs clients. Travaux sur la modélisation de bases de données, optimisation de requêtes et maintenance d'outils open-source. Acquisition d'expérience en développement backend et méthodologies de tests.",
+      "duration": "07/2022 - 08/2022",
+      "title": "Développeur web"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "PySpark",
+      "Databricks",
+      "Microsoft Azure",
+      "Django/Flask",
+      "R",
+      "C/C++",
+      "PHP / Laravel",
+      "MS Project"
+    ],
+    "familiar": [
+      "MongoDB",
+      "Tableau",
+      "Javascript",
+      "Unity",
+      "Matlab"
+    ],
+    "proficient": [
+      "Python (Pandas/NumPy)",
+      "Power BI",
+      "Azure Data Factory",
+      "SGBD/SQL",
+      "Excel/VBA",
+      "Java",
+      "Linux/Bash",
+      "Docker",
+      "Agile/Scrum",
+      "Git",
+      "MS Power Automate"
+    ]
+  },
+  "summary": "Récemment diplômé en double cursus avec une Maîtrise en Technologies de l'Information de l'ÉTS Montréal et un diplôme d'ingénieur spécialisé en informatique de l'INSA Lyon (FRANCE), je possède un profil hybride combinant ingénierie des données, développement logiciel et coordination de projets. J'ai utilisé des technologies telles que SQL, Python, SGBD, Azure, Power BI, Java, VBA, Docker et Git pour concevoir des pipelines ETL automatisées, développer des tableaux de bord analytiques, optimiser des processus internes et déployer des applications cloud. Chez Thélio, en tant que Data Consultant, j'ai implémenté des pipelines en architecture médaillon avec Azure Data Factory et des procédures stockées SQL, extrait des données via des API et livré des tableaux de bord Power BI interactifs pour l'analyse. Chez Bombardier, en tant que Coordinateur de projet, j'ai renforcé mes compétences de communication avec la gouvernance, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes. Mon objectif est de résoudre des problèmes liés aux données, améliorer des processus et créer des solutions data impactantes pour monter en compétence en tant qu'Ingénieur de données."
+}
