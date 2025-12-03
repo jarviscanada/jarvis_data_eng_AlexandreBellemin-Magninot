@@ -1,8 +1,58 @@
-# Jarvis Data Engineering Training
-1. [Linux Cluster Monitoring Agent (Linux and SQL)](./linux_sql) In-progress
-2. [Core Java Apps](./core_java) In-progress
-3. [Python Data Analytics](./python_data_analytics) In-progress
-4. [Spring Boot Trading REST API](./springboot) In-progress
-5. [Javascript Front End](./javascript) In-progress
-6. [Cloud/DevOps](./cloud_devops) In-progress
+# Alexandre BELLEMIN-MAGNINOT . Jarvis Consulting
 
+As a recent double-degree graduate with a Master's degree in Information Technology from ÉTS Montréal and a Master's degree in Computer Engineering from INSA Lyon, I bring a hybrid profile that combines data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. As a Data Consultant at Thélio, I designed medallion architecture pipelines with Azure Data Factory and SQL stored procedures, extracted data via APIs, and created interactive dashboards in Power BI. At Bombardier, as a Project Coordinator, I enhanced governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process times from one week to a few minutes. I aim to solve data challenges, improve processes, and develop impactful data solutions to enhance my skills as a data engineer.
+
+## Skills
+
+**Proficient:** Python (Pandas/NumPy), Power BI, Azure Data Factory, RDBMS/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git, MS Power Automate
+
+**Competent:** PySpark, Databricks, Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
+
+**Familiar:** MongoDB, Tableau, Javascript, Unity, Matlab
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot)
+
+
+**Linux Cluster Monitor.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/linux_sql)]: Developed a lightweight Linux monitoring solution that collects hardware specifications and real-time system metrics across multiple distributed servers. Built using Bash for data collection, PostgreSQL containerized with Docker as RDBMS, and cron jobs for automated ingestion. The project demonstrates how to design a simple DevOps-style data pipeline for capacity planning and system observability.
+
+**RDBMS and SQL.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/sql)]: Designed a PostgreSQL database and implemented ~30 SQL queries covering DDL, joins, aggregations, window functions, and string/date operations. Deployed the database using Docker to simulate an industry-like environment and reinforce relational modeling and SQL optimization skills.
+
+
+## Highlighted Projects
+**AGILE Optimization Project (INSA Lyon).**: Designed a route-optimization system for a simulated delivery service using Dijkstra's algorithm to compute the shortest and most efficient paths between warehouses and delivery points. Developed in Java within an Agile/Scrum framework (sprints, backlog, Git-based collaboration). Strengthened skills in algorithmic problem-solving, team coordination, and Agile project execution.
+
+**C Compiler (INSA Lyon).**: Built a simplified C compiler using C++ and assembly to understand compilation stages (lexing, parsing, code generation). Applied low-level programming, language theory, and modular software design. Used GitHub for version control, issues, and team collaboration.
+
+**Connected Doorbell (ÉTS Montréal).**: Developed a Flask web application deployed on Azure Web App to support a connected doorbell system. Implemented real-time notifications and automated image capture stored in Azure Blob Storage. Explored IoT-style communication, cloud deployment, and backend development.
+
+
+## Professional Experiences
+
+**Software Developer (data engineering)., Jarvis (2025-present)**: Developed data engineering skills by working on end-to-end projects involving SQL, Pandas, Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.
+
+**Project Coordinator., Bombardier (09/2024 - 05/2025)**: Designed and deployed internal automation tools using Excel, VBA, Power Automate, Planner, and SharePoint to improve data reliability and drastically reduce process execution time, from one week to under 5 minutes for one. Supported onboarding and training for hundreds of new engineers by developing planning tools, managing logistics, and ensuring learning resources are updated and available. Contributed to large-scale knowledge management efforts supporting several thousand employees by producing documentation, structuring information flows, and facilitating governance. Participated in the creation of internal podcasts, capturing and disseminating tacit knowledge. Worked primarily in an English-speaking environment, strengthening communication and cross-team coordination skills.
+
+**Data Consultant., Thélio (05/2023 - 08/2023)**: Designed medallion architecture pipelines using SQL stored procedures and automated them with Azure Data Factory. Built an ERP module in Laravel (PHP) for catalog management and performed API-based data extraction to a data warehouse. Created Power BI dashboards to monitor environmental KPIs and support sustainability reporting. Performed data analysis using PySpark in Databricks for a project in collaboration with Olympique Lyonnais. Strengthened skills in ETL/ELT, cloud integration, data modeling, and business analytics.
+
+**Web developer., Ancey Informatique. (07/2022 - 08/2022)**: Developed automated tests in PHPUnit for a Laravel-based resource management platform used by multiple clients. Worked on database modeling, query optimization, and maintenance of open-source tools. Gained experience in backend development and testing methodologies.
+
+
+## Education
+**École de Technologie Supérieure (ÉTS Montréal) (2023-2025)**, Master of Information Technology (IT)., Information Technology.
+- Courses taken: Business Intelligence (BI), Cloud computing, Virtual Reality (VR), Knowledge and innovation management, Project portfolio management, Feasibility analysis, AGILE, Artificial intelligence management.
+- GPA: 3.7/4.0
+
+**Institut National des Sciences Appliquées (INSA Lyon, FRANCE) (2019-2025)**, Master's in Engineering., Computer Science.
+- Courses taken: Software development and design, DBMS, OLAP data modeling, Networks, Machine Learning, AGILE, Data mining, Statistics, Probability.
+- Animation manager at Student Association of the Computer Science Department.
+- Consultant for the school's junior company ETIC INSA Technologies: understanding the customer's needs and implementing the solution.
+- GPA: 3.7/4.0
+
+
+## Miscellaneous
+- Drummer in several bands, playing styles ranging from pop to metal.
+- Mountain sports enthusiast: hiking, skiing, and climbing.
+- Amateur cook, with a particular interest in creating sauces.
+- Interest in the physics behind space phenomena and astrophysical concepts.

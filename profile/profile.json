@@ -1,0 +1,124 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Courses taken: Business Intelligence (BI), Cloud computing, Virtual Reality (VR), Knowledge and innovation management, Project portfolio management, Feasibility analysis, AGILE, Artificial intelligence management.",
+        "GPA: 3.7/4.0"
+      ],
+      "degree": "Master of Information Technology (IT).",
+      "department": "Information Technology.",
+      "duration": "2023-2025",
+      "school_name": "École de Technologie Supérieure (ÉTS Montréal)"
+    },
+    {
+      "awards_achievements": [
+        "Courses taken: Software development and design, DBMS, OLAP data modeling, Networks, Machine Learning, AGILE, Data mining, Statistics, Probability.",
+        "Animation manager at Student Association of the Computer Science Department.",
+        "Consultant for the school's junior company ETIC INSA Technologies: understanding the customer's needs and implementing the solution.",
+        "GPA: 3.7/4.0"
+      ],
+      "degree": "Master's in Engineering.",
+      "department": "Computer Science.",
+      "duration": "2019-2025",
+      "school_name": "Institut National des Sciences Appliquées (INSA Lyon, FRANCE)"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot",
+  "highlighted_projects": [
+    {
+      "description": "Designed a route-optimization system for a simulated delivery service using Dijkstra's algorithm to compute the shortest and most efficient paths between warehouses and delivery points. Developed in Java within an Agile/Scrum framework (sprints, backlog, Git-based collaboration). Strengthened skills in algorithmic problem-solving, team coordination, and Agile project execution.",
+      "name": "AGILE Optimization Project (INSA Lyon)."
+    },
+    {
+      "description": "Built a simplified C compiler using C++ and assembly to understand compilation stages (lexing, parsing, code generation). Applied low-level programming, language theory, and modular software design. Used GitHub for version control, issues, and team collaboration.",
+      "name": "C Compiler (INSA Lyon)."
+    },
+    {
+      "description": "Developed a Flask web application deployed on Azure Web App to support a connected doorbell system. Implemented real-time notifications and automated image capture stored in Azure Blob Storage. Explored IoT-style communication, cloud deployment, and backend development.",
+      "name": "Connected Doorbell (ÉTS Montréal)."
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a lightweight Linux monitoring solution that collects hardware specifications and real-time system metrics across multiple distributed servers. Built using Bash for data collection, PostgreSQL containerized with Docker as RDBMS, and cron jobs for automated ingestion. The project demonstrates how to design a simple DevOps-style data pipeline for capacity planning and system observability.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitor."
+    },
+    {
+      "description": "Designed a PostgreSQL database and implemented ~30 SQL queries covering DDL, joins, aggregations, window functions, and string/date operations. Deployed the database using Docker to simulate an industry-like environment and reinforce relational modeling and SQL optimization skills.",
+      "git_url": "/sql",
+      "name": "RDBMS and SQL."
+    }
+  ],
+  "name": "Alexandre BELLEMIN-MAGNINOT",
+  "others": [
+    {
+      "bullets": [
+        "Drummer in several bands, playing styles ranging from pop to metal.",
+        "Mountain sports enthusiast: hiking, skiing, and climbing.",
+        "Amateur cook, with a particular interest in creating sauces.",
+        "Interest in the physics behind space phenomena and astrophysical concepts."
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed data engineering skills by working on end-to-end projects involving SQL, Pandas, Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.",
+      "duration": "2025-present",
+      "title": "Software Developer (data engineering)."
+    },
+    {
+      "company": "Bombardier",
+      "description": "Designed and deployed internal automation tools using Excel, VBA, Power Automate, Planner, and SharePoint to improve data reliability and drastically reduce process execution time, from one week to under 5 minutes for one. Supported onboarding and training for hundreds of new engineers by developing planning tools, managing logistics, and ensuring learning resources are updated and available. Contributed to large-scale knowledge management efforts supporting several thousand employees by producing documentation, structuring information flows, and facilitating governance. Participated in the creation of internal podcasts, capturing and disseminating tacit knowledge. Worked primarily in an English-speaking environment, strengthening communication and cross-team coordination skills.",
+      "duration": "09/2024 - 05/2025",
+      "title": "Project Coordinator."
+    },
+    {
+      "company": "Thélio",
+      "description": "Designed medallion architecture pipelines using SQL stored procedures and automated them with Azure Data Factory. Built an ERP module in Laravel (PHP) for catalog management and performed API-based data extraction to a data warehouse. Created Power BI dashboards to monitor environmental KPIs and support sustainability reporting. Performed data analysis using PySpark in Databricks for a project in collaboration with Olympique Lyonnais. Strengthened skills in ETL/ELT, cloud integration, data modeling, and business analytics.",
+      "duration": "05/2023 - 08/2023",
+      "title": "Data Consultant."
+    },
+    {
+      "company": "Ancey Informatique.",
+      "description": "Developed automated tests in PHPUnit for a Laravel-based resource management platform used by multiple clients. Worked on database modeling, query optimization, and maintenance of open-source tools. Gained experience in backend development and testing methodologies.",
+      "duration": "07/2022 - 08/2022",
+      "title": "Web developer."
+    }
+  ],
+  "skills": {
+    "competent": [
+      "PySpark",
+      "Databricks",
+      "Microsoft Azure",
+      "Django/Flask",
+      "R",
+      "C/C++",
+      "PHP / Laravel",
+      "MS Project"
+    ],
+    "familiar": [
+      "MongoDB",
+      "Tableau",
+      "Javascript",
+      "Unity",
+      "Matlab"
+    ],
+    "proficient": [
+      "Python (Pandas/NumPy)",
+      "Power BI",
+      "Azure Data Factory",
+      "RDBMS/SQL",
+      "Excel/VBA",
+      "Java",
+      "Linux/Bash",
+      "Docker",
+      "Agile/Scrum",
+      "Git",
+      "MS Power Automate"
+    ]
+  },
+  "summary": "As a recent double-degree graduate with a Master's degree in Information Technology from ÉTS Montréal and a Master's degree in Computer Engineering from INSA Lyon, I bring a hybrid profile that combines data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. As a Data Consultant at Thélio, I designed medallion architecture pipelines with Azure Data Factory and SQL stored procedures, extracted data via APIs, and created interactive dashboards in Power BI. At Bombardier, as a Project Coordinator, I enhanced governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process times from one week to a few minutes. I aim to solve data challenges, improve processes, and develop impactful data solutions to enhance my skills as a data engineer."
+}
