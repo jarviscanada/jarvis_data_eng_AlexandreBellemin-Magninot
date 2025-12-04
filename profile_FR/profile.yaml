@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AlexandreB
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Récemment diplômé en double cursus avec une Maîtrise en Technologies de l'Information de l'ÉTS Montréal et un diplôme d'ingénieur spécialisé en informatique de l'INSA Lyon (FRANCE), je possède un profil hybride combinant ingénierie des données, développement logiciel et coordination de projets. J'ai utilisé des technologies telles que SQL, Python, SGBD, Azure, Power BI, Java, VBA, Docker et Git pour concevoir des pipelines ETL automatisées, développer des tableaux de bord analytiques, optimiser des processus internes et déployer des applications cloud.
+summary: Récemment diplômé en double cursus avec une Maîtrise en Technologies de l'Information de l'ÉTS Montréal et un diplôme d'ingénieur spécialisé en informatique de l'INSA Lyon (FRANCE), je possède un profil hybride combinant ingénierie des données, développement logiciel et coordination de projets. J'ai utilisé des technologies telles que SQL, Python (Pandas/NumPy), SGBD, Azure, Power BI, Java, VBA, Docker et Git pour concevoir des pipelines ETL automatisées, développer des tableaux de bord analytiques, optimiser des processus internes et déployer des applications cloud.
   Chez Thélio, en tant que Data Consultant, j'ai implémenté des pipelines en architecture médaillon avec Azure Data Factory et des procédures stockées SQL, extrait des données via des API et livré des tableaux de bord Power BI interactifs pour l'analyse. Chez Bombardier, en tant que Coordinateur de projet, j'ai renforcé mes compétences de communication avec la gouvernance, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes.
   Mon objectif est de résoudre des problèmes liés aux données, améliorer des processus et créer des solutions data impactantes pour monter en compétence en tant qu'Ingénieur de données.
 
@@ -50,10 +50,9 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes."
-  - name: "SGBD et SQL."
-    git_url: "/sql"
-    description: "Conçu une base de données PostgreSQL et réalisé environ 30 requêtes SQL couvrant DDL, jointures, agrégations, window functions et manipulations de string/dates. Déployé avec Docker pour simuler un environnement industriel et renforcer les compétences en modélisation relationnelle et optimisation SQL."
-
+  - name: "Analyse Client & Performance : PoC Data Analyse."
+    git_url: "/python_data_analytics"
+    description: "Conception et réalisation d'un workflow analytique complet pour un site e-commerce (simulé) afin de mieux comprendre le comportement client et les sources de revenus. Déploiement d'un environnement reproductible avec Docker, PostgreSQL et Jupyter. Réalisation de nettoyages et transformations de données, analyses exploratoires, suivi de KPIs (revenus mensuels, nombres de nouveaux et anciens clients par mois...) et segmentation RFM à l'aide de Python, Pandas, NumPy et Matplotlib. Identification de segments clés, risques et opportunités marketing. Ce projet m'a permis de consolider mes compétences en data engineering (ETL, pipelines, bases de données) et en data analytics (insights business, reporting, recommandations)."
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
@@ -76,7 +75,7 @@ professional_experience:
   - title: "Développeur logiciel (ingénierie des données)"
     company: "Jarvis"
     duration: "2025-présent"
-    description: "Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, Pandas, Bash, Docker et Git, en collaboration dans un cadre Agile. Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints."
+    description: "Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, Python (Pandas/NumPy), Bash, Docker et Git, en collaboration dans un cadre Agile. Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints."
   - title: "Coordinateur de projet"
     company: "Bombardier"
     duration: "09/2024 - 05/2025"
