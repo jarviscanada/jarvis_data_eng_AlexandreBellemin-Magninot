@@ -45,9 +45,9 @@
       "name": "Linux Cluster Monitor."
     },
     {
-      "description": "Designed a PostgreSQL database and implemented ~30 SQL queries covering DDL, joins, aggregations, window functions, and string/date operations. Deployed the database using Docker to simulate an industry-like environment and reinforce relational modeling and SQL optimization skills.",
-      "git_url": "/sql",
-      "name": "RDBMS and SQL."
+      "description": "Developed a full analytics proof of concept for a simulated online retailer using Python, Pandas/NumPy, SQL (PostgreSQL), Docker and Git. Built a data pipeline to clean, transform, and analyze transactional data, including RFM segmentation and monthly business KPIs. Delivered actionable insights on customer behavior, marketing opportunities, and revenue growth.",
+      "git_url": "/python_data_analytics",
+      "name": "Retail Analytics \u0026 Customer Segmentation PoC."
     }
   ],
   "name": "Alexandre BELLEMIN-MAGNINOT",
@@ -65,7 +65,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed data engineering skills by working on end-to-end projects involving SQL, Pandas, Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.",
+      "description": "Developed data engineering skills by working on end-to-end projects involving SQL, Python (Pandas/NumPy), Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.",
       "duration": "2025-present",
       "title": "Software Developer (data engineering)."
     },
@@ -120,5 +120,5 @@
       "MS Power Automate"
     ]
   },
-  "summary": "As a recent double-degree graduate with a Master's degree in Information Technology from ÉTS Montréal and a Master's degree in Computer Engineering from INSA Lyon, I bring a hybrid profile that combines data engineering, software development, and project coordination. I have applied technologies such as SQL, Python, RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. As a Data Consultant at Thélio, I designed medallion architecture pipelines with Azure Data Factory and SQL stored procedures, extracted data via APIs, and created interactive dashboards in Power BI. At Bombardier, as a Project Coordinator, I enhanced governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process times from one week to a few minutes. I aim to solve data challenges, improve processes, and develop impactful data solutions to enhance my skills as a data engineer."
+  "summary": "As a recent double-degree graduate with a Master's degree in Information Technology from ÉTS Montréal and a Master's degree in Computer Engineering from INSA Lyon, I bring a hybrid profile that combines data engineering, software development, and project coordination. I have applied technologies such as SQL, Python (Pandas/NumPy), RDBMS, Azure, Power BI, Java, VBA, Docker, and Git to design automated ETL pipelines, develop analytical dashboards, optimise workflows, and deploy cloud applications. As a Data Consultant at Thélio, I designed medallion architecture pipelines with Azure Data Factory and SQL stored procedures, extracted data via APIs, and created interactive dashboards in Power BI. At Bombardier, as a Project Coordinator, I enhanced governance, workflow optimisation, and cross-functional collaboration, delivering automation tools that improved data reliability and reduced process times from one week to a few minutes. I aim to solve data challenges, improve processes, and develop impactful data solutions to enhance my skills as a data engineer."
 }
