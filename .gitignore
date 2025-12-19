@@ -7,3 +7,12 @@ target/
 *.iml
 .idea/
 .eclipse
+.cache/
+.config/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.npm
+.metadata/
+
