@@ -35,19 +35,26 @@ public class RegexExcImp implements RegexExc{
         return matcher.matches();
     }
 
-    /*
     public static void main(String[] args) {
-        RegexExcImp exc = new RegexExcImp();
-        String[] jpgTest = {"image.jpg", "image.JPEG", "imapge.jpg.png", ".jpg", ""};
-        String[] ipTest = {"0.0.0.0", "1234.123.123.123", "z.f.d.09", "12.34.frz.2", "12.123.9.123", ""};
-        String[] emptyTest = {"           ", "   ", "", "  fefe  ", "must return false"};
+        if (args.length < 2){
+            throw new IllegalArgumentException("USAGE: regexType, line \nregexType: jpeg, ip, empty");
+        }
+        RegexExc exc = new RegexExcImp();
+        switch (args[0]) {
+            case "jpeg":
+                System.out.println(exc.matchJpeg(args[1]));
+                break;
 
-        System.out.println("JPG test");
-        for(String test : jpgTest) {System.out.println(test + ": " + exc.matchJpeg(test));}
-        System.out.println("\nIP test");
-        for(String test : ipTest) {System.out.println(test + ": " + exc.matchIp(test));}
-        System.out.println("\nEmpty test");
-        for(String test : emptyTest) {System.out.println(test + ": " + exc.isEmptyLine(test));}
+            case "ip":
+                System.out.println(exc.matchIp(args[1]));
+                break;
+
+            case "empty":
+                System.out.println(exc.isEmptyLine(args[1]));
+                break;
+
+            default:
+                throw new IllegalArgumentException("USAGE: regexType, line \nregexType: jpeg, ip, empty");
+        }
     }
-     */
 }
