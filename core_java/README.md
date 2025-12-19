@@ -1,5 +1,13 @@
 # Core Java Apps
-This project category consists of the two Java applications below
 
-1. [Java Grep App](./grep)
-2. [Stock Quote App](./stockquote)
+This project category consists of the following Java applications:
+
+## Java Grep App :heavy_check_mark:
+[Repository](./grep)
+
+This project reviews core Java concepts by implementing the Bash `egrep` command within a Maven project.
+
+## Stock Quote App :x:
+[Repository](./stockquote)
+
+This project has not been started yet.
