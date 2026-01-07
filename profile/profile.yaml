@@ -52,6 +52,10 @@ jarvis_projects:
   - name: "Retail Analytics & Customer Segmentation PoC."
     git_url: "/python_data_analytics"
     description: "Designed and implemented a complete analytics workflow for a simulated e-commerce company to help understand customer behavior and revenue sources. Built a reproducible environment using Docker, PostgreSQL, and Jupyter notebook. Performed data cleaning and transformations, exploratory analysis, KPI monitoring (monthly sales revenue/growth, number of new and existing customers...), and RFM segmentation using Python, Pandas, NumPy, and Matplotlib. Identified key customer segments, retention risks, and growth opportunities. This project strengthened my data engineering foundations (pipelines, ETL, database setup) and my ability to translate raw data into actionable business insights."
+  - name: "Java Grep Application"
+    git_url: "/core_java/grep"
+    description: "Developed a command-line Java application that replicates core Linux `grep` functionality by recursively scanning directories and matching file contents using regular expressions. Implemented two distinct approaches: a traditional file system-based solution and a functional implementation using Java Streams and lambda expressions. Built with Core Java, Maven, and SLF4J logging, version-controlled with Git, and containerized with Docker to ensure portability and reproducible execution. This project strengthened my understanding of Java I/O, functional programming, and application packaging."
+
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
