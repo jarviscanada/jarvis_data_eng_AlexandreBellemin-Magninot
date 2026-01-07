@@ -50,7 +50,7 @@
       "name": "Analyse Client \u0026 Performance : PoC Data Analyse."
     },
     {
-      "description": "Développé une application Java en ligne de commande reproduisant les fonctionnalités principales de la commande Linux `grep`, avec parcours récursif de fichiers et filtrage de contenu via des expressions régulières. Deux implémentations ont été réalisées : une basée sur l'API de système de fichiers Java et une approche plus fonctionnelle utilisant l'API de Streams et les expressions lambda. Le projet utilise les fonctionnalités fondamentales de Java, Maven et SLF4J pour le logging, Git pour le contrôle des versions et déployé dans un conteneur Docker afin de garantir la portabilité et la reproductibilité. Ce projet m'a permis de consolider mes compétences de Java I/O, programmation fonctionnelle et de docker pour le packaging d'application.",
+      "description": "Développé une application Java en ligne de commande reproduisant les fonctionnalités principales de la commande Linux `grep`, avec parcours récursif de fichiers et filtrage de contenu via des expressions régulières. Deux implémentations ont été réalisées : une basée sur l'API de système de fichiers Java et une approche plus fonctionnelle utilisant l'API de Streams et les expressions lambda. Le projet utilise les fonctionnalités fondamentales de Java (API fichiers, Stream et expressions lambda), Maven et SLF4J pour le logging, Git pour le contrôle des versions et déployé dans un conteneur Docker afin de garantir la portabilité et la reproductibilité. Ce projet m'a permis de consolider mes compétences de Java I/O, programmation fonctionnelle et de docker pour le packaging d'application.",
       "git_url": "/core_java/grep",
       "name": "Java Grep Application"
     }
