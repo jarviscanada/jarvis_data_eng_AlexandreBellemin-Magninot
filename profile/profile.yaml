@@ -78,7 +78,7 @@ professional_experience:
     company: "Jarvis"
     duration: "2025-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed data engineering skills by working on end-to-end projects involving SQL, Python (Pandas/NumPy), Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints."
+    description: "Developed data engineering skills by working on end-to-end projects involving SQL, Python (Pandas/NumPy), Java (Stream API), Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints."
 
   - title: "Project Coordinator."
     company: "Bombardier"

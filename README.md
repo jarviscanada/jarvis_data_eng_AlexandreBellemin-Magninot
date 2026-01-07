@@ -32,7 +32,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlexandreB
 
 ## Professional Experiences
 
-**Software Developer (data engineering)., Jarvis (2025-present)**: Developed data engineering skills by working on end-to-end projects involving SQL, Python (Pandas/NumPy), Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.
+**Software Developer (data engineering)., Jarvis (2025-present)**: Developed data engineering skills by working on end-to-end projects involving SQL, Python (Pandas/NumPy), Java (Stream API), Bash, Docker, and Git, and collaborating within an AGILE framework. Strengthened skills in data engineering fundamentals, deploying containerized applications, and collaborating with sprints.
 
 **Project Coordinator., Bombardier (09/2024 - 05/2025)**: Designed and deployed internal automation tools using Excel, VBA, Power Automate, Planner, and SharePoint to improve data reliability and drastically reduce process execution time, from one week to under 5 minutes for one. Supported onboarding and training for hundreds of new engineers by developing planning tools, managing logistics, and ensuring learning resources are updated and available. Contributed to large-scale knowledge management efforts supporting several thousand employees by producing documentation, structuring information flows, and facilitating governance. Participated in the creation of internal podcasts, capturing and disseminating tacit knowledge. Worked primarily in an English-speaking environment, strengthening communication and cross-team coordination skills.
 
