@@ -1,0 +1,4 @@
+/home/rocky/dev/jarvis_data_eng_AlexandreBellemin-Magninot/core_java/grep/./data/txt/shakespeare.txt:     Is father, mother, Tybalt, Romeo, Juliet,
+/home/rocky/dev/jarvis_data_eng_AlexandreBellemin-Magninot/core_java/grep/./data/txt/shakespeare.txt: Enter Romeo and Juliet aloft, at the Window.
+/home/rocky/dev/jarvis_data_eng_AlexandreBellemin-Magninot/core_java/grep/./data/txt/shakespeare.txt:     And Romeo dead; and Juliet, dead before,
+/home/rocky/dev/jarvis_data_eng_AlexandreBellemin-Magninot/core_java/grep/./data/txt/shakespeare.txt:     Romeo, there dead, was husband to that Juliet;
