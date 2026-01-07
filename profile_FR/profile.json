@@ -40,14 +40,19 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes.",
+      "description": "Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes. Amélioration des compétences en bash, linux, git et docker.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Monitor."
     },
     {
-      "description": "Conception et réalisation d'un workflow analytique complet pour un site e-commerce (simulé) afin de mieux comprendre le comportement client et les sources de revenus. Déploiement d'un environnement reproductible avec Docker, PostgreSQL et Jupyter. Réalisation de nettoyages et transformations de données, analyses exploratoires, suivi de KPIs (revenus mensuels, nombres de nouveaux et anciens clients par mois...) et segmentation RFM à l'aide de Python, Pandas, NumPy et Matplotlib. Identification de segments clés, risques et opportunités marketing. Ce projet m'a permis de consolider mes compétences en data engineering (ETL, pipelines, bases de données) et en data analytics (insights business, reporting, recommandations).",
+      "description": "Conception et réalisation d'un processus analytique complet pour un site e-commerce (simulé) afin de mieux comprendre le comportement client et les sources de revenus. Déploiement d'un environnement reproductible avec Docker, PostgreSQL et Jupyter. Réalisation de nettoyages et transformations de données, analyses exploratoires, suivi de KPIs (revenus mensuels, nombres de nouveaux et anciens clients par mois...) et segmentation RFM à l'aide de Python et des librairies Pandas, NumPy et Matplotlib. Identification de segments clés, risques et opportunités marketing. Ce projet m'a permis de consolider mes compétences en data engineering (ETL, pipelines, bases de données) et en data analytics (insights business, reporting, recommandations).",
       "git_url": "/python_data_analytics",
       "name": "Analyse Client \u0026 Performance : PoC Data Analyse."
+    },
+    {
+      "description": "Développé une application Java en ligne de commande reproduisant les fonctionnalités principales de la commande Linux `grep`, avec parcours récursif de fichiers et filtrage de contenu via des expressions régulières. Deux implémentations ont été réalisées : une basée sur l'API de système de fichiers Java et une approche plus fonctionnelle utilisant l'API de Streams et les expressions lambda. Le projet utilise les fonctionnalités fondamentales de Java, Maven et SLF4J pour le logging, Git pour le contrôle des versions et déployé dans un conteneur Docker afin de garantir la portabilité et la reproductibilité. Ce projet m'a permis de consolider mes compétences de Java I/O, programmation fonctionnelle et de docker pour le packaging d'application.",
+      "git_url": "/core_java/grep",
+      "name": "Java Grep Application"
     }
   ],
   "name": "Alexandre BELLEMIN-MAGNINOT",
@@ -65,7 +70,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, Python (Pandas/NumPy), Bash, Docker et Git, en collaboration dans un cadre Agile. Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints.",
+      "description": "Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, Python (Pandas/NumPy), Java (Stream API), Bash, Docker et Git, en collaboration dans un cadre Agile. Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints.",
       "duration": "2025-présent",
       "title": "Développeur logiciel (ingénierie des données)"
     },
