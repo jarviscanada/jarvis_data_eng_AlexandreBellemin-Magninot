@@ -61,6 +61,8 @@ The dataset was a World Data Indicator from 2016, with:
 - The indicator name associated
 - An indicator value
 
+The notebook is available here: [Zeppelin Notebook](./notebook/WDI_Data_Analytics_2ME4UEY7U.zpln)
+
 ### Zeppelin Architecture
 1. Data is loaded from a targz file
 2. Spark processes the data using PySpark
