@@ -6,7 +6,7 @@ With a double degree in Information Technology from ÉTS Montréal and an engine
 
 **Proficient:** Python (Pandas/NumPy), Power BI, PySpark, Databricks, Microsoft Azure, SGBD/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git, MS Power Automate
 
-**Competent:** PySpark, Databricks, Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
+**Competent:** Django/Flask, R, C/C++, PHP / Laravel, MS Project
 
 **Familiar:** MongoDB, Tableau, Javascript, Unity, Matlab
 
