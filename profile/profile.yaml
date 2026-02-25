@@ -27,9 +27,6 @@ skills:
     - MS Power Automate
   # At least 5 skills
   competent:
-    - PySpark
-    - Databricks
-    - Microsoft Azure
     - Django/Flask
     - R
     - C/C++

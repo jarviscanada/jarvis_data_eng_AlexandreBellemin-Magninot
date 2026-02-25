@@ -105,9 +105,6 @@
   ],
   "skills": {
     "competent": [
-      "PySpark",
-      "Databricks",
-      "Microsoft Azure",
       "Django/Flask",
       "R",
       "C/C++",
