@@ -1,12 +1,12 @@
 # Alexandre BELLEMIN-MAGNINOT . Jarvis Consulting
 
-Double diplômé d'une Maitrise en Technologie de l'Information à l'ÉTS Montréal, et d'un diplôme d'ingénieur spécialité informatique avec l'Institut National des Sciences Appliquées de Lyon (INSA Lyon, France), je possède un profil hybride combinant ingénierie de données, analytique décisionnelle et coordination de projet. Au cours de mon parcours, j'ai pu implémenté des pipelines ETL en architecture médaillon avec Azure Data Factory et des procédures SQL, extrait des données via API d'ERP, traité des données avec Databricks et livré des tableaux de bord Power BI pour l'analyse. J'ai renforcé mes compétences de communication, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes. Mon objectif est de résoudre des problèmes liés aux données, améliorer des processus et créer des solutions data impactantes pour monter en compétence.
+With a double degree in Information Technology from ÉTS Montréal and an engineering degree specializing in computer science from the Institut National des Sciences Appliquées de Lyon (INSA Lyon, France), I have a hybrid profile combining data engineering, decision analytics, and project coordination. Throughout my career, I have implemented ETL pipelines in medallion architecture with Azure Data Factory and SQL procedures, extracted data via ERP APIs, processed data with Databricks, and delivered Power BI dashboards for analysis. I have strengthened my communication, process optimization, and cross-functional collaboration skills by delivering automation tools that have improved data reliability and reduced the execution time of certain processes from a week to a few minutes. My goal is to solve data-related problems, improve processes, and create impactful data solutions to develop my skills.
 
 ## Skills
 
 **Proficient:** Python (Pandas/NumPy), Power BI, PySpark, Databricks, Microsoft Azure, SGBD/SQL, Excel/VBA, Java, Linux/Bash, Docker, Agile/Scrum, Git, MS Power Automate
 
-**Competent:** Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
+**Competent:** PySpark, Databricks, Microsoft Azure, Django/Flask, R, C/C++, PHP / Laravel, MS Project
 
 **Familiar:** MongoDB, Tableau, Javascript, Unity, Matlab
 
@@ -15,63 +15,67 @@ Double diplômé d'une Maitrise en Technologie de l'Information à l'ÉTS Montr�
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot)
 
 
-**Analyse Client & Performance : PoC Data Analyse.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/python_data_analytics)]: Conception et réalisation d'un processus analytique complet pour un site e-commerce (simulé) afin de mieux comprendre le comportement client et les sources de revenus. Déploiement d'un environnement reproductible avec Docker, PostgreSQL et Jupyter. Réalisation de nettoyages et transformations de données, analyses exploratoires, suivi de KPIs (revenus mensuels, nombres de nouveaux et anciens clients par mois...) et segmentation RFM à l'aide de Python et des librairies Pandas, NumPy et Matplotlib. Identification de segments clés, risques et opportunités marketing. Ce projet m'a permis de consolider mes compétences en data engineering (ETL, pipelines, bases de données) et en data analytics (insights business, reporting, recommandations).
+**Databricks ETL Medallion & Delta Live Table Pipelines** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/databricks)]: Designed and implemented end-to-end ETL pipelines in Databricks following the Medallion Architecture (Bronze/Silver/Gold) to process millions of transactional records with fraud indicators. Built modular notebooks and multiple ingestion strategies, delivering analytics-ready datasets and dashboards. Developed a Delta Live Tables (DLT) pipeline for stock market data ingestion with enforced data quality and reliable transformation workflows.
 
-**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/core_java/grep)]: Développé une application Java en ligne de commande reproduisant les fonctionnalités principales de la commande Linux `grep`, avec parcours récursif de fichiers et filtrage de contenu via des expressions régulières. Deux implémentations ont été réalisées : une basée sur l'API de système de fichiers Java et une approche plus fonctionnelle utilisant l'API de Streams et les expressions lambda. Le projet utilise les fonctionnalités fondamentales de Java, Maven et SLF4J pour le logging, Git pour le contrôle des versions et déployé dans un conteneur Docker afin de garantir la portabilité et la reproductibilité. Ce projet m'a permis de consolider mes compétences de Java I/O, programmation fonctionnelle et de docker pour le packaging d'application.
+**PySpark Customer Analytics Migration.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/spark)]: Migrated a Pandas-based retail analytics workflow to PySpark on Databricks (Spark 3.5.2), redesigning transformations using the structured DataFrame API for scalable distributed processing. Implemented customer segmentation (RFM), KPI computation, and optimized queries without Python UDFs to ensure performance on large datasets. Deployed and tested workflows on a multi-node Spark cluster (Google Dataproc).
 
-**Linux Cluster Monitor.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/linux_sql)]: Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes. Amélioration des compétences en bash, linux, git et docker.
+**Retail Analytics & Customer Segmentation PoC.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/python_data_analytics)]: Designed and implemented a complete analytics workflow for a simulated e-commerce company to help understand customer behavior and revenue sources. Built a reproducible environment using Docker, PostgreSQL, and Jupyter notebook. Performed data cleaning and transformations, exploratory analysis, KPI monitoring (monthly sales revenue/growth, number of new and existing customers...), and RFM segmentation using Python, Pandas, NumPy, and Matplotlib. Identified key customer segments, retention risks, and growth opportunities. This project strengthened my data engineering foundations (pipelines, ETL, database setup) and my ability to translate raw data into actionable business insights.
+
+**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/core_java/grep)]: Developed a command-line Java application that replicates core Linux `grep` functionality by recursively scanning directories and matching file contents using regular expressions. Implemented two distinct approaches: a traditional file system-based solution and a functional implementation using Java Streams and lambda expressions. Built with Core Java, Maven, and SLF4J logging, version-controlled with Git, and containerized with Docker to ensure portability and reproducible execution. This project strengthened my understanding of Java I/O, functional programming, and application packaging.
+
+**Linux Cluster Monitor.** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlexandreBellemin-Magninot/tree/master/linux_sql)]: Developed a lightweight Linux monitoring solution that collects hardware specifications and real-time system metrics across multiple distributed servers. Built using Bash for data collection, PostgreSQL containerized with Docker as RDBMS, and cron jobs for automated ingestion. The project demonstrates how to design a simple DevOps-style data pipeline for capacity planning and system observability.
 
 
 ## Highlighted Projects
-**Projet d'optimisation AGILE (INSA Lyon)**: Développé un système d'optimisation de chemins pour un service de livraison simulé en utilisant l'algorithme de Dijkstra afin de calculer les chemins les plus courts et efficaces entre les entrepôts et les points de livraison. Réalisé en Java dans un cadre Agile/Scrum (sprints, backlog, collaboration via Git). Renforcement des compétences en résolution algorithmique, coordination d'équipe et exécution de projet Agile.
+**AGILE Optimization Project (INSA Lyon).**: Designed a route-optimization system for a simulated delivery service using Dijkstra's algorithm to compute the shortest and most efficient paths between warehouses and delivery points. Developed in Java within an Agile/Scrum framework (sprints, backlog, Git-based collaboration). Strengthened skills in algorithmic problem-solving, team coordination, and Agile project execution.
 
-**Compilateur C (INSA Lyon).**: Construit un compilateur simplifié pour le langage C en C++ et assembleur, afin de comprendre les étapes de compilation (lexing, parsing, génération de code). Application de la programmation bas-niveau, théorie des langages et conception modulaire. Utilisation de GitHub pour le contrôle de version et la collaboration.
+**C Compiler (INSA Lyon).**: Built a simplified C compiler using C++ and assembly to understand compilation stages (lexing, parsing, code generation). Applied low-level programming, language theory, and modular software design. Used GitHub for version control, issues, and team collaboration.
 
-**Sonnette connectée (ÉTS Montréal).**: Développé une application web Flask déployée sur Azure Web App pour une sonnette connectée. Implémentation de notifications en temps réel sur un smartphone et capture automatique d'images stockées dans Azure Blob Storage. Exploration de la communication IoT, du déploiement cloud et du développement backend.
+**Connected Doorbell (ÉTS Montréal).**: Developed a Flask web application deployed on Azure Web App to support a connected doorbell system. Implemented real-time notifications and automated image capture stored in Azure Blob Storage. Explored IoT-style communication, cloud deployment, and backend development.
 
 
 ## Professional Experiences
 
-**Développeur logiciel (ingénierie des données), Jarvis (2025-présent)**: 
- - Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, PySpark (Databricks), Python (Pandas/NumPy), Java (Stream API), Bash, Docker et Git, en collaboration dans un cadre Agile.
- - Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints.
+**Software Developer (data engineering)., Jarvis (2025-present)**: 
+ - Developed data engineering skills by working on end-to-end projects involving SQL, PySpark (Databricks), Python (Pandas/NumPy), Java (Stream API), Bash, Docker, and Git, collaborating in an Agile environment.
+ - Strengthened data engineering fundamentals, deployed containerized applications, and worked in sprints.
 
-**Ingénieur de données / Coordinateur de projet, Bombardier (09/2024 - 05/2025)**: 
- - Mise en place d'une pipeline ETL simplifiée pour une équipe interfonctionnelle, permettant de récupérer des données sensibles distribuées de plusieurs milliers d'employés de l'entreprise et de les rendre utilisables pour une dizaine de projets différents.
- - Conception et développement d'outils automatisés avec Microsoft 365 (Excel/VBA, Power Automate, Planner, Sharepoint) pour augmenter la fiabilité des données utilisées et optimiser les processus internes, permettant pour certains de réduire leur délai d'exécution d'une semaine à 5 minutes.
- - Création, maintien et présentation à la gouvernance de tableaux de bord avec Power BI. Source depuis un Excel sur Sharepoint, et utilisation de requêtes DAX pour créer des mesures.
- - Soutien à la formation de centaines de nouveaux ingénieurs, notamment par la planification, le suivi des sessions, l’assistance logistique et la mise à disposition de ressources pédagogiques.
- - Contribution à la gestion des connaissances à l'échelle de plusieurs milliers d'employés en structurant les flux d'information et facilitant la gouvernance.
- - Participation au développement de podcasts internes, destinés à archiver et diffuser des savoirs tacites.
- - Communication majoritairement en anglais.
+**Data Engineer / Project Coordinator., Bombardier (09/2024 - 05/2025)**: 
+ - Implementation of a simplified ETL pipeline for a cross-functional team, enabling the retrieval of sensitive data distributed across several thousand company employees and making it usable for a dozen different projects.
+ - Designed and developed automated tools with Microsoft 365 (Excel/VBA, Power Automate, Planner, SharePoint) to increase the reliability of the data used and optimize internal processes, enabling some to reduce their execution time from one week to 5 minutes.
+ - Creation, maintenance, and presentation of dashboards to governance using Power BI. Sourced from Excel on SharePoint, and use of DAX queries to create metrics.
+ - Supported the training of hundreds of new engineers, including planning, session monitoring, logistical assistance, and provision of educational resources.
+ - Contributed to knowledge management for several thousand employees by structuring information flows and facilitating governance.
+ - Participated in the development of internal podcasts designed to archive and disseminate tacit knowledge.
+ - Communicated primarily in English.
 
-**Consultant Data, Thélio (05/2023 - 08/2023)**: 
- - Renforcement des compétences en ETL/ELT, modélisation de données, intégration cloud et analytiques.
- - Mise en place de pipelines ETL en architecture médaillon à l'aide de procédures stockées SQL, de l'ingestion à la visualisation sur Power BI. Automatisation de ces pipelines via Azure Data Factory.
- - Conception et développement d’un module ERP avec Laravel (PHP) pour la gestion d’offres de l’entreprise et mise en place d'une extraction de ces données automatisée vers un entrepôt de données via des appels API.
- - Mise en place d'une architecture en médaillon pour des données RSE de l'entreprise avec SQL.
- - Mise en place d’un dashboard RSE sous Power BI pour le suivi des indicateurs d’empreinte environnementale.
- - Analyse et traitement de données dans le cadre d’un projet mené avec l’Olympique Lyonnais, en utilisant Databricks.
+**Data Consultant., Thélio (05/2023 - 08/2023)**: 
+ - Strengthening skills in ETL/ELT, data modeling, cloud integration, and analytics.
+ - Implementation of ETL pipelines in medallion architecture using SQL stored procedures, from ingestion to visualization on Power BI. Automation of these pipelines via Azure Data Factory.
+ - Design and development of an ERP module with Laravel (PHP) for managing company offers and implementation of automated extraction of this data to a data warehouse via API calls.
+ - Implementation of a medallion architecture for company CSR data with SQL.
+ - Implementation of a CSR dashboard in Power BI for monitoring environmental footprint indicators.
+ - Analysis and processing of data as part of a project conducted with Olympique Lyonnais, using Databricks.
 
-**Développeur web, Ancey Informatique (07/2022 - 08/2022)**: 
- - Développé des tests automatisés en PHPUnit pour une plateforme Laravel de gestion de ressources utilisée par plusieurs clients.
- - Travaux sur la modélisation de bases de données, optimisation de requêtes et maintenance d'outils open-source. Acquisition d'expérience en développement backend et méthodologies de tests.
+**Web developer., Ancey Informatique. (07/2022 - 08/2022)**: 
+ - Developed automated tests in PHPUnit for a Laravel resource management platform used by several clients.
+ - Worked on database modeling, query optimization, and maintenance of open-source tools. Gained experience in backend development and testing methodologies.
 
 
 ## Education
-**École de Technologie Supérieure (ÉTS Montréal) (2023-2025)**, Maîtrise en Génie, Technologies de l'Information
-- Cours suivis : Intelligence d'affaires (BI), Infonuagique, Réalité virtuelle (VR), Gestion des connaissances et de l'innovation, Gestion de portefeuille de projets, Analyse de faisabilité, Agile, Gestion de l'IA.
-- GPA : 3,7/4,0
+**École de Technologie Supérieure (ÉTS Montréal) (2023-2025)**, Master of Information Technology (IT)., Information Technology.
+- Courses taken: Business Intelligence (BI), Cloud computing, Virtual Reality (VR), Knowledge and innovation management, Project portfolio management, Feasibility analysis, AGILE, Artificial intelligence management.
+- GPA: 3.7/4.0
 
-**Institut National des Sciences Appliquées (INSA Lyon, FRANCE) (2019-2025)**, Maîtrise en Ingénierie, Informatique
-- Cours suivis : Développement et conception logicielle, SGBD, Modélisation OLAP, Réseaux, Machine Learning, Agile, Data mining, Statistiques, Probabilités.
-- Responsable animation au sein de l'Association Étudiante du Département Informatique.
-- Consultant pour l'entreprise junior ETIC INSA Technologies : analyse des besoins client et mise en oeuvre de solutions.
-- GPA : 3,7/4,0
+**Institut National des Sciences Appliquées (INSA Lyon, FRANCE) (2019-2025)**, Master's in Engineering., Computer Science.
+- Courses taken: Software development and design, DBMS, OLAP data modeling, Networks, Machine Learning, AGILE, Data mining, Statistics, Probability.
+- Animation manager at Student Association of the Computer Science Department.
+- Consultant for the school's junior company ETIC INSA Technologies: understanding the customer's needs and implementing the solution.
+- GPA: 3.7/4.0
 
 
 ## Miscellaneous
-- Batteur dans plusieurs groupes, styles allant de la pop au métal.
-- Passionné de sports de montagne : randonnée, ski et escalade.
-- Cuisinier amateur, particulièrement intéressé par la création de sauces.
-- Intérêt pour la physique des phénomènes spatiaux et concepts astrophysiques.
+- Drummer in several bands, playing styles ranging from pop to metal.
+- Mountain sports enthusiast: hiking, skiing, and climbing.
+- Amateur cook, with a particular interest in creating sauces.
+- Interest in the physics behind space phenomena and astrophysical concepts.
