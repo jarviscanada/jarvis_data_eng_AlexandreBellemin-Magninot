@@ -44,6 +44,12 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
+  - name: "Pipelines ETL & DLT Databricks en médaillon"
+    git_url: "/databricks"
+    description: "Conception et développement de pipelines ETL de bout en bout sous Databricks selon une architecture médaillon pour le traitement de plusieurs millions de transactions incluant des indicateurs de fraude. Mise en oeuvre de notebooks modulaires et de différentes stratégies d'ingestion afin de produire des datasets analytiques prêts à la consommation. Implémentation d'une pipeline Delta Live Tables (DLT) intégrant contrôle qualité, fiabilité des transformations et alimentation de dashboards analytiques sur données boursières."
+  - name: "Migration d'une analyse client vers PySpark"
+    git_url: "/spark"
+    description: "Migration d'un workflow d'analyse retail initialement développé en Pandas vers PySpark sous Databricks (Spark 3.5.2), avec refonte des transformations via la DataFrame API afin d'assurer performance et scalabilité en environnement distribué. Implémentation de la segmentation client (RFM) et du calcul de KPI sans UDF Python pour optimiser l'exécution. Déploiement et validation sur cluster Spark multi-noeuds (Google Dataproc)."
   - name: "Analyse Client & Performance : PoC Data Analyse."
     git_url: "/python_data_analytics"
     description: "Conception et réalisation d'un processus analytique complet pour un site e-commerce (simulé) afin de mieux comprendre le comportement client et les sources de revenus. Déploiement d'un environnement reproductible avec Docker, PostgreSQL et Jupyter. Réalisation de nettoyages et transformations de données, analyses exploratoires, suivi de KPIs (revenus mensuels, nombres de nouveaux et anciens clients par mois...) et segmentation RFM à l'aide de Python et des librairies Pandas, NumPy et Matplotlib. Identification de segments clés, risques et opportunités marketing. Ce projet m'a permis de consolider mes compétences en data engineering (ETL, pipelines, bases de données) et en data analytics (insights business, reporting, recommandations)."
