@@ -5,9 +5,8 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AlexandreB
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Récemment diplômé en double cursus avec une Maîtrise en Technologies de l'Information de l'ÉTS Montréal et un diplôme d'ingénieur spécialisé en informatique de l'INSA Lyon (FRANCE), je possède un profil hybride combinant ingénierie des données, développement logiciel et coordination de projets. J'ai utilisé des technologies telles que SQL, Python (Pandas/NumPy), SGBD, Azure, Power BI, Java, VBA, Docker et Git pour concevoir des pipelines ETL automatisées, développer des tableaux de bord analytiques, optimiser des processus internes et déployer des applications cloud.
-  Chez Thélio, en tant que Data Consultant, j'ai implémenté des pipelines en architecture médaillon avec Azure Data Factory et des procédures stockées SQL, extrait des données via des API et livré des tableaux de bord Power BI interactifs pour l'analyse. Chez Bombardier, en tant que Coordinateur de projet, j'ai renforcé mes compétences de communication avec la gouvernance, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes.
-  Mon objectif est de résoudre des problèmes liés aux données, améliorer des processus et créer des solutions data impactantes pour monter en compétence en tant qu'Ingénieur de données.
+summary: Double diplômé d'une Maitrise en Technologie de l'Information à l'ÉTS Montréal, et d'un diplôme d'ingénieur spécialité informatique avec l'Institut National des Sciences Appliquées de Lyon (INSA Lyon, France), je possède un profil hybride combinant ingénierie de données, analytique décisionnelle et coordination de projet. Au cours de mon parcours, j'ai pu implémenté des pipelines ETL en architecture médaillon avec Azure Data Factory et des procédures SQL, extrait des données via API d'ERP, traité des données avec Databricks et livré des tableaux de bord Power BI pour l'analyse. J'ai renforcé mes compétences de communication, d'optimisation des processus et de collaboration interfonctionnelle, en livrant des outils d'automatisation qui ont amélioré la fiabilité des données et réduit le temps d'exécution de certains processus d'une semaine à quelques minutes.
+  Mon objectif est de résoudre des problèmes liés aux données, améliorer des processus et créer des solutions data impactantes pour monter en compétence.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -16,7 +15,9 @@ skills:
   proficient:
     - Python (Pandas/NumPy)
     - Power BI
-    - Azure Data Factory
+    - PySpark
+    - Databricks
+    - Microsoft Azure
     - SGBD/SQL
     - Excel/VBA
     - Java
@@ -27,8 +28,6 @@ skills:
     - MS Power Automate
   # At least 5 skills
   competent:
-    - PySpark
-    - Databricks
     - Microsoft Azure
     - Django/Flask
     - R
@@ -45,17 +44,17 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Linux Cluster Monitor."
-    git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes. Amélioration des compétences en bash, linux, git et docker."
   - name: "Analyse Client & Performance : PoC Data Analyse."
     git_url: "/python_data_analytics"
     description: "Conception et réalisation d'un processus analytique complet pour un site e-commerce (simulé) afin de mieux comprendre le comportement client et les sources de revenus. Déploiement d'un environnement reproductible avec Docker, PostgreSQL et Jupyter. Réalisation de nettoyages et transformations de données, analyses exploratoires, suivi de KPIs (revenus mensuels, nombres de nouveaux et anciens clients par mois...) et segmentation RFM à l'aide de Python et des librairies Pandas, NumPy et Matplotlib. Identification de segments clés, risques et opportunités marketing. Ce projet m'a permis de consolider mes compétences en data engineering (ETL, pipelines, bases de données) et en data analytics (insights business, reporting, recommandations)."
   - name: "Java Grep Application"
     git_url: "/core_java/grep"
     description: "Développé une application Java en ligne de commande reproduisant les fonctionnalités principales de la commande Linux `grep`, avec parcours récursif de fichiers et filtrage de contenu via des expressions régulières. Deux implémentations ont été réalisées : une basée sur l'API de système de fichiers Java et une approche plus fonctionnelle utilisant l'API de Streams et les expressions lambda. Le projet utilise les fonctionnalités fondamentales de Java, Maven et SLF4J pour le logging, Git pour le contrôle des versions et déployé dans un conteneur Docker afin de garantir la portabilité et la reproductibilité. Ce projet m'a permis de consolider mes compétences de Java I/O, programmation fonctionnelle et de docker pour le packaging d'application."
+  - name: "Linux Cluster Monitor."
+    git_url: "/linux_sql"
+        # The project description allows hiring managers to understand your project and the technologies you used(e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
+        # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Développé une solution légère de contrôle dans Linux qui collecte les spécifications matérielles et les métriques systèmes en temps réel sur plusieurs serveurs dans une architecture distribuée. Réalisé avec Bash pour la collecte des données, PostgreSQL conteneurisé avec Docker comme SGBD, et cron pour l'ingestion automatisée. Le projet démontre comment concevoir un pipeline de données pour la planification des capacités matérielles et le suivi des systèmes. Amélioration des compétences en bash, linux, git et docker."
 
 
 # List of personal or academic projects
@@ -80,19 +79,36 @@ professional_experience:
   - title: "Développeur logiciel (ingénierie des données)"
     company: "Jarvis"
     duration: "2025-présent"
-    description: "Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, Python (Pandas/NumPy), Java (Stream API), Bash, Docker et Git, en collaboration dans un cadre Agile. Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints."
-  - title: "Coordinateur de projet"
+    description: "\n
+      - Développé des compétences en ingénierie des données en travaillant sur des projets de bout en bout impliquant SQL, PySpark (Databricks), Python (Pandas/NumPy), Java (Stream API), Bash, Docker et Git, en collaboration dans un cadre Agile.\n
+      - Renforcement des fondamentaux de l'ingénierie des données, déploiement d'applications conteneurisées et travail en sprints."
+  - title: "Ingénieur de données / Coordinateur de projet"
     company: "Bombardier"
     duration: "09/2024 - 05/2025"
-    description: "Conçu et déployé des outils d'automatisation interne avec Excel, VBA, Power Automate, Planner et SharePoint pour améliorer la fiabilité des données et réduire drastiquement le temps d'exécution de certains processus, passant d'une semaine à moins de 5 minutes pour certain. Soutenu l'intégration et la formation de plusieurs centaines de nouveaux ingénieurs via des outils de planification, la gestion logistique et la mise à disposition de ressources pédagogiques. Contribué à la gestion des connaissances à grande échelle pour quelques milliers d'ingénieurs, structurant les flux d'information et facilitant la gouvernance. Participé à la création de podcasts internes pour capturer et diffuser le savoir tacite. Communication principalement en anglais au sein d'équipes transverses."
+    description: "\n
+      - Mise en place d'une pipeline ETL simplifiée pour une équipe interfonctionnelle, permettant de récupérer des données sensibles distribuées de plusieurs milliers d'employés de l'entreprise et de les rendre utilisables pour une dizaine de projets différents.\n
+      - Conception et développement d'outils automatisés avec Microsoft 365 (Excel/VBA, Power Automate, Planner, Sharepoint) pour augmenter la fiabilité des données utilisées et optimiser les processus internes, permettant pour certains de réduire leur délai d'exécution d'une semaine à 5 minutes.\n
+      - Création, maintien et présentation à la gouvernance de tableaux de bord avec Power BI. Source depuis un Excel sur Sharepoint, et utilisation de requêtes DAX pour créer des mesures.\n
+      - Soutien à la formation de centaines de nouveaux ingénieurs, notamment par la planification, le suivi des sessions, l’assistance logistique et la mise à disposition de ressources pédagogiques.\n
+      - Contribution à la gestion des connaissances à l'échelle de plusieurs milliers d'employés en structurant les flux d'information et facilitant la gouvernance.\n
+      - Participation au développement de podcasts internes, destinés à archiver et diffuser des savoirs tacites.\n
+      - Communication majoritairement en anglais."
   - title: "Consultant Data"
     company: "Thélio"
     duration: "05/2023 - 08/2023"
-    description: "Conçu des pipelines ETL en architecture médaillon à l'aide de procédures stockées SQL et automatisées via Azure Data Factory. Développé un module ERP en Laravel (PHP) pour la gestion du catalogue et extrait des données via API vers un entrepôt de données. Créé des tableaux de bord Power BI pour le suivi des indicateurs environnementaux et soutenir le reporting RSE. Réalisé du traitement de données avec PySpark sur Databricks pour un projet en collaboration avec l'Olympique Lyonnais. Renforcement des compétences en ETL/ELT, intégration cloud, modélisation de données et analytics."
+    description: "\n
+      - Renforcement des compétences en ETL/ELT, modélisation de données, intégration cloud et analytiques.\n
+      - Mise en place de pipelines ETL en architecture médaillon à l'aide de procédures stockées SQL, de l'ingestion à la visualisation sur Power BI. Automatisation de ces pipelines via Azure Data Factory.\n
+      - Conception et développement d’un module ERP avec Laravel (PHP) pour la gestion d’offres de l’entreprise et mise en place d'une extraction de ces données automatisée vers un entrepôt de données via des appels API.\n
+      - Mise en place d'une architecture en médaillon pour des données RSE de l'entreprise avec SQL.\n
+      - Mise en place d’un dashboard RSE sous Power BI pour le suivi des indicateurs d’empreinte environnementale.\n
+      - Analyse et traitement de données dans le cadre d’un projet mené avec l’Olympique Lyonnais, en utilisant Databricks."
   - title: "Développeur web"
     company: "Ancey Informatique"
     duration: "07/2022 - 08/2022"
-    description: "Développé des tests automatisés en PHPUnit pour une plateforme Laravel de gestion de ressources utilisée par plusieurs clients. Travaux sur la modélisation de bases de données, optimisation de requêtes et maintenance d'outils open-source. Acquisition d'expérience en développement backend et méthodologies de tests."
+    description: "\n
+      - Développé des tests automatisés en PHPUnit pour une plateforme Laravel de gestion de ressources utilisée par plusieurs clients.\n
+      - Travaux sur la modélisation de bases de données, optimisation de requêtes et maintenance d'outils open-source. Acquisition d'expérience en développement backend et méthodologies de tests."
 
 # Formation
 education:
